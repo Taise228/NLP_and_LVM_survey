@@ -3,6 +3,10 @@ import requests
 import torch
 from lavis.models import load_model_and_preprocess
 
+'''
+Downloading a model requires tens of GB momory, so it's almost impossible to run this script and
+try BLIP-2 on your laptop.
+'''
 
 def main():
     url = "http://images.cocodataset.org/val2017/000000039769.jpg"
